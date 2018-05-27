@@ -1,0 +1,38 @@
+What we need to do in English:
+
+Create shopping cart databse and products table CHECK
+
+Insert data into table CHECK
+
+Display Products CHECK
+		connect to the database and make sql query to retrieve products CHECK
+		loop through all the products CHECK
+		display product information CHECK
+		
+display order details
+		check if there is anything in the cart CHECK
+		check if there is a session open CHECK
+		make counter to keep track of how many item are in the cart so we know CHECK
+		they array key for the next item CHECK
+				
+If there is a cart.... CHECK
+			create an array that will track the array keys and match them to product ids CHECK
+			add the next product the user wishes to add to cart to existing session using count array CHECK
+
+If there is no cart..... CHECK
+			create aray CHECK
+			create session CHECK
+			
+calculate subtotals for individual items
+
+calculate the grand total
+
+display receipt
+
+make remove button on receipt
+	loop through session and remove appropriate coresponding id
+	unset array key in the session variable
+	reset array keys in the session 
+
+make checkout button unhidden if there are items in the cart
+		
